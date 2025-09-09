@@ -1,0 +1,21 @@
+﻿<Page x:Class="CMCSPrototype1.Views.CoordinatorDashboard"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      Title="CoordinatorDashboard" Background="#f4f6f9">
+
+    <Grid>
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Margin="20">
+            <TextBlock Text="Programme Coordinator Dashboard"
+                       FontSize="26" FontWeight="Bold" Foreground="#2c3e50"
+                       Margin="0,0,0,20"/>
+
+            <Button Content="📋 View Pending Claims" Width="220" Height="50"
+                    Background="#e67e22" Foreground="White" FontWeight="Bold"
+                    Click="ViewPending_Click"/>
+
+            <Button Content="✔ Verify Claims" Width="220" Height="50"
+                    Background="#2980b9" Foreground="White" FontWeight="Bold"
+                    Click="Verify_Click"/>
+        </StackPanel>
+    </Grid>
+</Page>
